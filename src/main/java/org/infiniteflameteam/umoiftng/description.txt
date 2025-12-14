@@ -1,0 +1,1 @@
+ColoredLampNext的Next代表了新的ColoredLamp
