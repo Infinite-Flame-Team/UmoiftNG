@@ -1,1 +1,0 @@
-./umoift/*version*/gradle.properties
