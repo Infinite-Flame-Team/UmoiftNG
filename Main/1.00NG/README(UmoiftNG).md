@@ -26,7 +26,7 @@ UmoiftNG(Universal Mod of Infinite Flame Team Next Generation) ---- 无限火焰
 
 Infinite Flame Team里包含的人{
 
-DeepSeek AI(开发, 写代码), Hei_wan_Feng(开发, 写代码, 调试, 管理资源(src/main/resources, README.md, 其他), 其他), Ean游戏(美术, 管理资源(src/main/resources, README.md, 其他)), dhjs0000(美学(~~!=~~≠美术), 管理资源(src/main/resources, README.md, commit, 其他))
+DeepSeek AI(开发, 写代码), Hei_wan_Feng(开发, 写代码, 调试, 管理资源(src/main/resources, README.md, 其他), 其他), Ean游戏(美术, 管理资源(src/main/resources, README.md, 其他), 测试), dhjs0000(美学(~~!=~~≠美术), 管理资源(src/main/resources, README.md, commit, 其他), 测试)
 
 }
 
