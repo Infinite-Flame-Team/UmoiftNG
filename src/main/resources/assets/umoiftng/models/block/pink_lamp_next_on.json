@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "umoiftng:block/pink_lamp_next_on"
+  }
+}
