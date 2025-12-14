@@ -1,0 +1,178 @@
+(
+被(.over)包住的东西代表已做完，被(.comment)包住的东西代表注释，被(.waiting)包住的东西代表未做完，被(.doing)包住的东西代表正在做，被(.preparing)包住的东西代表准备中，(.unknown)包住的东西代表未知怎么做，被(.redo)包住的东西台标重新做，还可以用多个
+.comment)
+
+(
+把主标题上的黄色字符包含着原版的添加：redoumobs=Redo(Redid) Universal Mod of Bricks Studio;redoumobs by Hei_wan_Feng and DeepSeek Ai now!; Successfully to load redoumobs!
+.redo.over)
+
+(
+把彩色灯加入到游戏
+.over)
+
+(
+添加/dialog指令，与高版本的命令一样
+.over)
+
+(
+添加领地功能
+.over)
+
+(
+将/data命令不可修改的数据用mixin变为可修改
+.waiting)
+
+(
+将蹲下\(≠潜行\\(哇,还有Unicode转意\\)\)添加，玩家可以在蹲下时可以通过一格高，然后蹲下键加到按键绑定里
+.waiting)
+
+(
+添加/allowisjumpingcrouch自定义命令，允许玩家在跳越时蹲下\(≠潜行\\(哇,还有Unicode转意\\)\)语法:/allowisjumpingcrouch <add> <true|false> <target> <from> <to>，true代表开启，false代表关闭，除了true或者false之外，其他的都是可选的如果不加目标选择器的话，那么就是默认的所有人\\\(@a\\\)，如果不加from和to的话，那么生效范围是全世界，加了就得指定xyz和终点xyz，前提是必须加目标选择器\\\\\(<target>\\\\\)
+                                                                                     /allowisjumpingcrouch <list>会列出所有的可在空中蹲下的区域
+                                                                                     /allowisjumpingcrouch <remove> <from> <to>的这个子命令的<from>和<to>是必填项，如果要删除的区域不存在，则报错，并且到<from>和<to>的时候会有自动补齐
+.waiting)
+
+(
+将高版本的语言选项的日本变形字体添加
+.waiting)
+
+(
+把基岩版的允许、拒绝、边框添加
+.waiting)
+
+(
+添加/tick指令和高版本的差不多，但是可以选区和指定玩家，玩家选择器和区域都是可选项，默认不填就是所有玩家生效和整个世界生效，语法：/tick query <target> <from> <to>
+                                                                                                          /tick rate <rate> <target> <from> <to>
+                                                                                                          /tick freeze <target> <from> <to>
+                                                                                                          /tick unfreeze <target> <from> <to>
+                                                                                                          /tick step [<time>] <target> <from> <to>
+                                                                                                          /tick step stop <target> <from> <to>
+                                                                                                          /tick sprint [<time>] <target> <from> <to>
+                                                                                                          /tick sprint stop <target> <from> <to>
+)
+
+(
+添加quicklypay自定义指令，语法：/quicklypay pay <scoreboard> <target> <value> <please|for>，介绍：<scoreboard>=要扣除/加到哪个的计分板，<target>是要操作的对象，<value>要扣除/加到的计分板的值，<please|for>的please是用来请求的，对方同意后将获得<value>的的值存在计分板里，并且接受的人也会扣除计分板相对应的值，for使用来给予的和前面的差不多但是对方只是要接受，而且打完命令后要先输密码
+                            /quicklypay password <password> <surePassword>
+                            (
+                            非op玩家也能用，这样既可以能不用麻烦op，也能让trigger乱改数的缺点消失，真是一举两得，还有如果不够钱，那么就会提示付不了
+                            .comment)
+.waiting)
+
+(
+将1.12的创建世界时的超级自定义世界添加
+.waiting)
+
+(
+把物品堆叠组件添加
+(
+提示：物品堆叠组件本质上还是nbt
+.comment)
+.waiting)
+
+(
+把/waypoint高版本命令添加
+.waiting)
+
+(
+让§可以重新输入
+.waiting)
+
+(
+把LaTeX的添加适配
+.waiting)
+
+(
+把基岩版的搭路特性添加
+.waiting)
+
+(
+把死亡界面添加一个聊天框
+.waiting)
+
+(
+把高版本的/random添加
+.waiting)
+
+(
+把高版本的游戏规则commandBlocksEnabled、minecartMaxSpeed、pvp、spawnMonsters、tntExplodes添加
+.waiting)
+
+(
+将新版本的长矛和鹦鹉螺添加
+.waiting)
+
+(
+添加在定义方块：有目标的末影箱，shift+右键选择另一个有目标的末影箱，然后放在地上，这时，两个末影箱会自动设置，从左边放，右边到，右边放，左边到，而且邮件能打开箱子，只不过不是玩家独有的，而是一个类似于普通箱子，放东西就会到另一个箱子，以后还可能添加多个箱子传输的功能，要先设置代号，然后多个链接起来，最后选择目标（代号）
+.waiting)
+
+(
+全键无冲
+.waiting)
+
+(
+组合按键（按键绑定）
+.waiting)
+
+(
+按`出现鼠标，再按一下正常游戏
+.waiting)
+
+(
+做一个类似于基岩的东西，但是是纯色的，而且有多颜色，还有个镐子，需要NBT，然后加入一个nbt，关于谁可以用的用uuid区分，默认没有
+.waiting)
+
+(
+添加备忘录功能
+.waiting)
+
+(
+把id功能添加，从1开始，也就是第一个进入这个游戏的玩家，后面来的以此类推
+.waiting)
+
+(
+做一下彩色烈焰弹，可以发射，也可以直接在地上点着，当然点出来的是和染色的烈焰弹一样颜色的火，彩色烈焰弹合成表：使用普通烈焰弹和颜料合成，去除彩色烈焰弹的彩色：使用一把斧子和染色的烈焰弹放在那，然后会合成出普通的烈焰弹，斧子会掉一点耐久，但是不会消失
+把网络等其他高技术的做进游戏里
+.waiting)
+
+(
+把类似于KubeJS的东西做进来，但是是用java，写好的源文件\(.java\)放在versions/版本名/umoiftCustomPlugins，然后在单人游戏里添加一个按钮，是启用或关闭umoift自定义插件，只有在选择世界后会亮起，启用或关闭的umoift自定义插件对选择的世界影响，还有versions/版本名/umoiftCustomPlugins只用放.java，其他的就不用放了
+.waiting)
+把可调节重复同一个时间的或定时保存的自动保存世界数据添加到游戏内
+.waiting)
+
+(
+把拆解台做到游戏里（左边是九个格，右边也是，但是是拆解台）
+.waiting)
+
+(
+把设置umoift功能添加
+.waiting)
+
+(
+把/logshow指令加入，语法：开启：/logshow on <show per millsecond>   关闭：/logshow off            顾名思义，会把Minecraft当前运行日志显示出来，就是Minecraft原生的那个日志，重新进入/新创建世界时会自动/logshow off，每次启动需要手动开启
+.waiting)
+
+(
+把现实里真实的电路添加到游戏中
+.waiting)
+
+(
+让不可再生的资源想办法变成可再生资源作为一个新功能加到umoift
+.waiting)
+
+(
+把游戏的已发送聊天修改成已发送可复制的mc聊天
+.waiting)
+
+(
+把化学啥的弄进来，来搭配这个电路
+.waiting)
+
+(
+把自定义箱子菜单添加
+.waiting)
+
+(
+其他等待写入中…
+.preparing.doing.unknown.comment)

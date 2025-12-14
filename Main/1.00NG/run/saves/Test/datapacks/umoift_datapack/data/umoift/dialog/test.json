@@ -1,0 +1,160 @@
+{
+  "format_version": "1.2",
+  "minecraft:dialog": {
+    "description": {
+      "identifier": "example:dialog_system"
+    },
+    "dialog_sets": [
+      {
+        "identifier": "example:greeting_dialog",
+        "priority": 0,
+        "scenes": [
+          {
+            "scene_tag": "example:greeting_scene",
+            "text": {
+              "rawtext": [
+                {
+                  "text": "欢迎来到示例对话框系统！\n"
+                },
+                {
+                  "text": "请选择一个选项继续..."
+                }
+              ]
+            },
+            "buttons": [
+              {
+                "name": "开始教程",
+                "commands": [
+                  "dialog change @s example:tutorial_dialog"
+                ]
+              },
+              {
+                "name": "查看设置",
+                "commands": [
+                  "dialog change @s example:settings_dialog"
+                ]
+              },
+              {
+                "name": "退出",
+                "commands": [
+                  "dialog close @s"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "example:tutorial_dialog",
+        "priority": 0,
+        "scenes": [
+          {
+            "scene_tag": "example:tutorial_scene",
+            "text": {
+              "rawtext": [
+                {
+                  "text": "教程对话框\n\n"
+                },
+                {
+                  "text": "这里可以放置教程内容。\n"
+                },
+                {
+                  "text": "使用按钮在不同场景间导航。"
+                }
+              ]
+            },
+            "buttons": [
+              {
+                "name": "下一页",
+                "commands": [
+                  "dialog change @s example:tutorial_page2"
+                ]
+              },
+              {
+                "name": "返回",
+                "commands": [
+                  "dialog change @s example:greeting_dialog"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "example:settings_dialog",
+        "priority": 0,
+        "scenes": [
+          {
+            "scene_tag": "example:settings_scene",
+            "text": {
+              "rawtext": [
+                {
+                  "text": "设置菜单\n\n"
+                },
+                {
+                  "text": "调整您的游戏设置："
+                }
+              ]
+            },
+            "buttons": [
+              {
+                "name": "难度设置",
+                "commands": [
+                  "tellraw @s {\"rawtext\":[{\"text\":\"难度设置功能待实现\"}]}"
+                ]
+              },
+              {
+                "name": "画面设置",
+                "commands": [
+                  "tellraw @s {\"rawtext\":[{\"text\":\"画面设置功能待实现\"}]}"
+                ]
+              },
+              {
+                "name": "返回主菜单",
+                "commands": [
+                  "dialog change @s example:greeting_dialog"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "example:tutorial_page2",
+        "priority": 0,
+        "scenes": [
+          {
+            "scene_tag": "example:tutorial_scene2",
+            "text": {
+              "rawtext": [
+                {
+                  "text": "教程 - 第2页\n\n"
+                },
+                {
+                  "text": "这是教程的第二页内容。\n"
+                },
+                {
+                  "text": "您可以添加更多信息在这里。"
+                }
+              ]
+            },
+            "buttons": [
+              {
+                "name": "上一页",
+                "commands": [
+                  "dialog change @s example:tutorial_dialog"
+                ]
+              },
+              {
+                "name": "完成教程",
+                "commands": [
+                  "dialog change @s example:greeting_dialog"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
