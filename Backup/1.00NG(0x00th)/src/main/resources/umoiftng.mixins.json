@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.infiniteflameteam.umoift.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "umoift.refmap.json",
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
