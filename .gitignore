@@ -27,3 +27,8 @@ build/
 run/
 
 .gradle/
+*.lock
+.gradle-cache/
+*.log
+*.bin
+*.probe
