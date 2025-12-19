@@ -1,5 +1,12 @@
 # UmoiftNG (Universal Mod of Infinite Flame Team Next Generation)
 
+## 📖 语言版本
+
+- [简体中文](README.md) (当前)
+- [繁體中文（香港）](README_zh_hk.md)
+- [繁體中文（台灣）](README_zh_tw.md)
+- [文言文（華夏）](README_lzh.md)
+
 ## 项目简介
 
 **UmoiftNG**（无限火焰团队通用下一代模组）是一个基于 Minecraft Forge 1.20.1 的综合性模组项目，旨在为 Minecraft 带来丰富的功能扩展和游戏体验改进。
