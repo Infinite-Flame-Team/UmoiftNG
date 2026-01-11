@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.infiniteflameteam.umoift.mixin",
+  "package": "org.infiniteflameteam.umoiftng.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "umoift.refmap.json",
   "client": [
+    "MixinTargetEntityDataAccessor"
   ],
   "server": [
   ],

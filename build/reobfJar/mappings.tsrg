@@ -212137,3 +212137,6 @@ net/minecraft/world/ticks/WorldGenTickAccess net/minecraft/world/ticks/WorldGenT
 		0 p_193462_ p_193462_
 		1 p_193463_ p_193463_
 net/minecraft/world/ticks/package-info net/minecraft/world/ticks/package-info
+org/infiniteflameteam/umoiftng/mixin/MixinTargetEntityDataAccessor org/infiniteflameteam/umoiftng/mixin/MixinTargetEntityDataAccessor
+	entity f_139507_
+	setData (Lnet/minecraft/nbt/CompoundTag;)V m_7603_
