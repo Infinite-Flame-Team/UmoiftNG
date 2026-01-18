@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Specification-Title: umoiftng
+Specification-Vendor: DeepSeek AI, Hei_wan_Feng, BilibiliEanGame, dhjs00
+ 00, Kimi AI
+Specification-Version: 1
+Implementation-Title: Original1.01NG
+Implementation-Version: 1.01(NG)(Umoift0.0.0.6)
+Implementation-Vendor: DeepSeek AI, Hei_wan_Feng, BilibiliEanGame, dhjs0
+ 000, Kimi AI
+Implementation-Timestamp: 2026-01-11T14:22:41+0800
+MixinConfigs: umoiftng.mixins.json
+
