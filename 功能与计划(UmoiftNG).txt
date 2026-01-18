@@ -24,7 +24,7 @@
 
 (
 将蹲下\(≠潜行\\(哇,还有Unicode转意\\)\)添加，玩家可以在蹲下时可以通过一格高，然后蹲下键加到按键绑定里
-.waiting)
+.over)
 
 (
 添加/allowisjumpingcrouch自定义命令，允许玩家在跳越时蹲下\(≠潜行\\(哇,还有Unicode转意\\)\)语法:/allowisjumpingcrouch <add> <true|false> <target> <from> <to>，true代表开启，false代表关闭，除了true或者false之外，其他的都是可选的如果不加目标选择器的话，那么就是默认的所有人\\\(@a\\\)，如果不加from和to的话，那么生效范围是全世界，加了就得指定xyz和终点xyz，前提是必须加目标选择器\\\\\(<target>\\\\\)

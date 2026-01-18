@@ -1,1 +1,3 @@
-./umoift/*version*/gradle.properties
+./UmoiftNG/Main/*version*/gradle.properties
+./UmoiftNG/Backup/
+./UmoiftNG/Main/*version*/功能与计划(UmoiftNG).txt
