@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "umoiftng:block/black_lamp_next_on" },
+    "lit=false": { "model": "umoiftng:block/colored_lamp_next_off" }
+  }
+}
