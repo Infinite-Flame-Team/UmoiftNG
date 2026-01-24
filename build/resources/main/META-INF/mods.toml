@@ -20,7 +20,7 @@ license="All Rights Reserved"
 # The modid of the mod
 modId="umoiftng" #mandatory
 # The version number of the mod
-version="1.02(NG)(Umoift0.0.0.7)" #mandatory
+version="1.03(NG)(Umoift0.0.0.8)" #mandatory
 # A display name for the mod
 displayName="Universal Mod of Infinite Flame Team Next Generation" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
