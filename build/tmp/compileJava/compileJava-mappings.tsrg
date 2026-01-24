@@ -1,0 +1,2 @@
+org/infiniteflameteam/umoiftng/mixin/MixinTargetEntityDataAccessor entity f_139507_
+org/infiniteflameteam/umoiftng/mixin/MixinTargetEntityDataAccessor setData (Lnet/minecraft/nbt/CompoundTag;)V m_7603_
